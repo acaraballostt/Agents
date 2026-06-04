@@ -22,7 +22,7 @@ description: >-
   - Context: User reports network latency issues and wants to test connectivity.
     user: 'Ping the gateway and check network throughput with nload.'
     assistant: 'I will invoke the os-monitor agent to run network diagnostics.'
-mode: all
+mode: subagent
 temperature: 0.1
 top_p: 0.1
 permission:
